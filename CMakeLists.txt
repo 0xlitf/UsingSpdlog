@@ -28,14 +28,16 @@ file(GLOB ${PROJECT_NAME_UPPER}_SRC "${CMAKE_CURRENT_SOURCE_DIR}/*.h" "${CMAKE_C
 message("src: ${${PROJECT_NAME_UPPER}_SRC}")
 add_executable(${PROJECT_NAME}
    ${${PROJECT_NAME_UPPER}_SRC}
-   spdlog::spdlog
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/
 )
 
-target_link_libraries(${PROJECT_NAME} Qt${QT_VERSION_MAJOR}::Core)
+target_link_libraries(${PROJECT_NAME}
+    Qt${QT_VERSION_MAJOR}::Core
+    spdlog::spdlog
+)
 
 include(GNUInstallDirs)
 install(TARGETS ${PROJECT_NAME}

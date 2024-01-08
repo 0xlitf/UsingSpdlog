@@ -1,6 +1,6 @@
 QtCreator 12.0.0/12.0.1 can not support Conan 2.0.16, this repo is for finding errors.
 
-C:\Users\QtDev\.conan2\profiles\default:
+C:\Users\QtDev\\.conan2\profiles\default:
 
 ```
 [settings]

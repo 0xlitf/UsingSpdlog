@@ -6,6 +6,10 @@
   [https://forum.qt.io/topic/153573/conan-install-error-on-qtcreator-12-0-0-12-0-1/6](https://forum.qt.io/topic/153573/conan-install-error-on-qtcreator-12-0-0-12-0-1/6)
 
 
+### Interim solution
+  Manually specify `CMAKE_MSVC_RUNTIME_LIBRARY` in [CMakeLists.txt](https://github.com/0xlitf/UsingSpdlog/blob/main/CMakeLists.txt)
+  
+
 ### Reproduce by install Qt6 on Windows11
 1. Qt 6.6.1
 2. QtCreator 12.0.1

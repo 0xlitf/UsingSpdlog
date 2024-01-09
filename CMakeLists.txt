@@ -1,13 +1,12 @@
 cmake_minimum_required(VERSION 3.27.7)
 
-## useless
-# option(STATIC_WINDOWS_RUNTIME "Use static (MT/MTd) Windows runtime" ON)
-
-# if (STATIC_WINDOWS_RUNTIME)
-#     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
-# else()
-#     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL")
-# endif()
+# Manually specify CMAKE_MSVC_RUNTIME_LIBRARY
+option(STATIC_WINDOWS_RUNTIME "Use static (MT/MTd) Windows runtime" ON)
+if (STATIC_WINDOWS_RUNTIME)
+    set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+else()
+    set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL")
+endif()
 
 get_filename_component(current_dir "${CMAKE_CURRENT_SOURCE_DIR}" NAME)
 string(REPLACE " " "" current_dir "${current_dir}")

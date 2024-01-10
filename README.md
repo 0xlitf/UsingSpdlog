@@ -10,7 +10,7 @@
 1. [https://github.com/conan-io/cmake-conan/issues/608](https://github.com/conan-io/cmake-conan/issues/608)
 2. [https://github.com/conan-io/cmake-conan/pull/609](https://github.com/conan-io/cmake-conan/pull/609)
    
-Thanks to [James](https://github.com/memsharded) [Cristian Adam](https://github.com/cristianadam).
+Thanks to [James](https://github.com/memsharded), [Cristian Adam](https://github.com/cristianadam).
 
 
 ### Reproduce by install Qt6 on Windows11

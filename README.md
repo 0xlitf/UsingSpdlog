@@ -17,17 +17,7 @@
 4. conan 2.0.9
 5. cmake 3.27.7
 
-#### .conan2 profile default:
-C:\Users\QtDev\\.conan2\profiles\default:
-```
-[settings]
-arch=x86_64
-build_type=Release
-compiler=msvc
-compiler.cppstd=14
-compiler.runtime=dynamic
-compiler.version=193
-os=Windows
-[options]
-shared=True
-```
+### memsharded closed this as completed:
+1. [https://github.com/conan-io/cmake-conan/issues/608](https://github.com/conan-io/cmake-conan/issues/608)
+2. [https://github.com/conan-io/cmake-conan/pull/609](https://github.com/conan-io/cmake-conan/pull/609)
+Thanks to [James](https://github.com/memsharded) [Cristian Adam](https://github.com/cristianadam).

@@ -1,9 +1,9 @@
 ### Question:
   QtCreator 12.0.1 can not support Conan 2.0.9, this repo is for finding errors.
   
-  [https://github.com/conan-io/cmake-conan/issues/608](https://github.com/conan-io/cmake-conan/issues/608)
+1. [https://github.com/conan-io/cmake-conan/issues/608](https://github.com/conan-io/cmake-conan/issues/608)
   
-  [https://forum.qt.io/topic/153573/conan-install-error-on-qtcreator-12-0-0-12-0-1/6](https://forum.qt.io/topic/153573/conan-install-error-on-qtcreator-12-0-0-12-0-1/6)
+2. [https://forum.qt.io/topic/153573/conan-install-error-on-qtcreator-12-0-0-12-0-1/6](https://forum.qt.io/topic/153573/conan-install-error-on-qtcreator-12-0-0-12-0-1/6)
 
 
 ### memsharded closed this as completed:

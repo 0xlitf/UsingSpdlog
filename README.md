@@ -6,6 +6,11 @@
 2. [https://forum.qt.io/topic/153573/conan-install-error-on-qtcreator-12-0-0-12-0-1/6](https://forum.qt.io/topic/153573/conan-install-error-on-qtcreator-12-0-0-12-0-1/6)
 
 
+### Interim solution
+1. Replace `C:\Qt\Tools\QtCreator\share\qtcreator\package-manager\auto-setup.cmake` with [auto-setup.cmake](https://code.qt.io/cgit/qt-creator/qt-creator.git/tree/src/share/3rdparty/package-manager/auto-setup.cmake?h=12.0)
+2. Manually specify `CMAKE_MSVC_RUNTIME_LIBRARY` in [CMakeLists.txt](https://github.com/0xlitf/UsingSpdlog/blob/main/CMakeLists.txt)
+
+  
 ### memsharded closed this as completed:
 1. [https://github.com/conan-io/cmake-conan/issues/608](https://github.com/conan-io/cmake-conan/issues/608)
 2. [https://github.com/conan-io/cmake-conan/pull/609](https://github.com/conan-io/cmake-conan/pull/609)

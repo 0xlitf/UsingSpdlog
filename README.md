@@ -18,7 +18,7 @@
 Thanks to [James](https://github.com/memsharded), [Cristian Adam](https://github.com/cristianadam).
 
 
-### Reproduce by install Qt6 on Windows11
+### Reproduce by on Windows11
 1. Qt 6.6.1
 2. QtCreator 12.0.1
 3. VS 2022
